@@ -80,8 +80,8 @@ class Button(QPushButton):
 
 		imgsize = getsize(self.img_shadow)
 
-		width = self.default_size * imgsize[0] / 10 * 1.01
-		height = self.default_size * imgsize[1] / 10 * 1.01
+		width = self.default_size * imgsize[0] / 10 * 1.02
+		height = self.default_size * imgsize[1] / 10 * 1.02
 
 		self.default_shadowwidth, self.default_shadowheight = width, height
 		self.shadow.setIcon(QtGui.QIcon(self.img_shadow))
